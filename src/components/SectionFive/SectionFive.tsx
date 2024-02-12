@@ -47,7 +47,7 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
 						data-scroll-direction="horizontal"
 						data-scroll-speed={title1ScrollSpeed}
 					>
-						New
+						Наши
 					</h2>
 					<img
 						className={S.image}
@@ -61,11 +61,11 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
 						data-scroll-target="#target-element"
 						data-scroll-speed={title2ScrollSpeed}
 					>
-						Collection
+						Работы
 					</h2>
 				</div>
 				<div className={S.sub}>
-					<p className={S.subText}>Eco-friendly</p>
+					<p className={S.subText}>Ответственность</p>
 					<div className={S.subRow}>
 						<Line
 							id={"lineRef"}
@@ -74,11 +74,11 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
 							className={S.line1}
 						/>
 						<p ref={ref} className={S.subText}>
-							Wear with attitude
+							Носите с удовольствием
 						</p>
 					</div>
 					<div className={S.subRow}>
-						<p className={S.subText}>Minimalistic</p>
+						<p className={S.subText}>Минимализм</p>
 						<Line
 							id={"lineRef"}
 							width="11.22vh"
@@ -89,20 +89,19 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
 				</div>
 				<div className={S.textWrapper}>
 					<p className={S.text}>
-						Minimalism has arrived in a totally new silhouette. The
-						York & Dante collection is manufactured with the highest
-						quality working to blend the right amount of luxury,
-						exclusivity and simplicity. Our brand dedicates itself
-						to unique pieces that are standard in its product line
-						and can easily become your wardrobe's complement without
-						losing your personality or creativity. Our bond is to
-						create timeless pieces that provide ceaseless elegance.
-						The garments are built to be worn from the city to the
-						mountains: made of eco-friendly materials that are
-						handmade within an ethical manufacturing process. All
-						you need to do is add an attitude of confidence and our
-						pieces take care of the rest. Find your style and story
-						within this collection, and leave your mark on it.
+					В нашем ателье мы относимся к работе с 
+					каждым изделием с особой ответственностью и 
+					преданностью. Мы понимаем, что одежда имеет большое 
+					значение для наших клиентов и представляет их 
+					индивидуальность и стиль.
+					<br />
+					Мы уделяем максимальное внимание деталям в 
+					каждом этапе создания одежды. Начиная с 
+					консультации и изучения ваших пожеланий, 
+					мы стараемся полностью понять ваши предпочтения 
+					и потребности. Наши опытные мастера обладают 
+					уникальным мастерством и профессионализмом, 
+					чтобы создать для вас идеальное изделие.
 					</p>
 				</div>
 			</div>

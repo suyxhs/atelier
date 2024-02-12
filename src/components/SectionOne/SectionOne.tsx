@@ -42,14 +42,14 @@ const SectionOne: React.FC<SectionOneProps> = ({
 					data-splitting=""
 					className={`${S.text} split-text hidden-init`}
 				>
-					York & Dante <sup className={S.sup}>&reg;</sup>
+					Ателье Воронеж <sup className={S.sup}>&reg;</sup>
 				</h1>
 				<p ref={subTextRef} className={`${S.subText} hidden-init`}>
-					Natural Beauty, Fashionable Eco-Friendly Design.
+					Идеальная форма, созданная руками мастеров!
 				</p>
 				<div ref={buttonRef} className={`${S.button} hidden-init`}>
 					<Button
-						text="explore"
+						text="подробнее"
 						use="section-one"
 						onClick={handleOnClick}
 					/>

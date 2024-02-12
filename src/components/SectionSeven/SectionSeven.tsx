@@ -19,11 +19,11 @@ const SectionSeven: React.FC<SectionSevenProps> = ({ windowWidth }) => {
 						className={S.marquee}
 						speed={windowWidth > 1024 ? 15 : 80}
 					>
-						<p className={S.marqueeText}>Finesse</p>
-						<p className={S.marqueeText}>Finesse</p>
-						<p className={S.marqueeText}>Finesse</p>
-						<p className={S.marqueeText}>Finesse</p>
-						<p className={S.marqueeText}>Finesse</p>
+						<p className={S.marqueeText}>Тонкость</p>
+						<p className={S.marqueeText}>Тонкость</p>
+						<p className={S.marqueeText}>Тонкость</p>
+						<p className={S.marqueeText}>Тонкость</p>
+						<p className={S.marqueeText}>Тонкость</p>
 					</Marquee>
 				</div>
 				<div className={S.main}>
@@ -53,10 +53,10 @@ const SectionSeven: React.FC<SectionSevenProps> = ({ windowWidth }) => {
 						</div>
 						<div className={S.right}>
 							<p className={S.smallText}>
-								We believe that fashion should not be
-								intimidating, luxury is more than leather and
-								silk, and prices are not always the best
-								criteria to judge a good fashion brand.
+							Мы считаем, что мода не должна быть пугающей, 
+							роскошь - это больше, чем кожа и шелк, и цены 
+							не всегда являются лучшим критерием для оценки 
+							хорошего модного бренда.
 							</p>
 						</div>
 					</div>

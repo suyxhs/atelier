@@ -15,11 +15,11 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 			<div className={S.section}>
 				<div className={S.left}>
 					<p className={S.text}>
-						Check out more pictures of our collections
+						Посмотрите больше фотографий наших работ
 					</p>
 					<Link to="/gallery">
 						<div className={S.button}>
-							<Button use="section-nine" text="go to gallery" />
+							<Button use="section-nine" text="галерея" />
 						</div>
 					</Link>
 				</div>

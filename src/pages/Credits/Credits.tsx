@@ -66,18 +66,21 @@ const Credits: React.FC<PageProps> = ({
 					className={S.marquee}
 					speed={windowWidth > 1024 ? 15 : 80}
 				>
-					<p className={S.marqueeText}>Credits</p>
-					<p className={S.marqueeText}>Credits</p>
-					<p className={S.marqueeText}>Credits</p>
-					<p className={S.marqueeText}>Credits</p>
-					<p className={S.marqueeText}>Credits</p>
+					<p className={S.marqueeText}>Контакты</p>
+					<p className={S.marqueeText}>Контакты</p>
+					<p className={S.marqueeText}>Контакты</p>
+					<p className={S.marqueeText}>Контакты</p>
+					<p className={S.marqueeText}>Контакты</p>
 				</Marquee>
 				<div className={S.credits}>
 					<p
 						data-splitting=""
 						className={`${S.quoteOne} split-text hidden-init`}
 					>
-						An exploration of a horizontal scroll experience using the Golden cannon grid
+						Номер телефона для всех вопросов и бронирования 
+						<br />
+						<br />
+						<a href="tel:79066701204" className={`${S.textTypeOne} split-text hidden-init`}>+79066701204</a>
 					</p>
 					<div className={S.credit1}>
 						<p
@@ -100,19 +103,19 @@ const Credits: React.FC<PageProps> = ({
 						</p>
 						<div className={S.media}>
 							<a
-								className={`${S.animateOpacity} ${S.icon}`}
+								className={` ${S.icon}`}
 								href="https://twitter.com/P_h_i_l_i_x"
 							>
 								<Twitter />
 							</a>
 							<a
-								className={`${S.animateOpacity} ${S.icon}`}
+								className={` ${S.icon}`}
 								href="https://www.linkedin.com/in/felix-enyinnaya-b2593b173/"
 							>
 								<LinkedIn />
 							</a>
 							<a
-								className={`${S.animateOpacity} ${S.icon}`}
+								className={` ${S.icon}`}
 								href="https://www.behance.net/felixenyinnayadesign"
 							>
 								<Behance />
@@ -140,19 +143,19 @@ const Credits: React.FC<PageProps> = ({
 						</p>
 						<div className={S.media}>
 							<a
-								className={`${S.animateOpacity} ${S.icon}`}
+								className={` ${S.icon}`}
 								href="https://twitter.com/tobijudah"
 							>
 								<Twitter />
 							</a>
 							<a
-								className={`${S.animateOpacity} ${S.icon}`}
+								className={` ${S.icon} hidden-init`}
 								href="https://www.linkedin.com/in/oluwatobiju-judah-omotosho/"
 							>
 								<LinkedIn />
 							</a>
 							<a
-								className={`${S.animateOpacity} ${S.icon}`}
+								className={` ${S.icon} hidden-init`}
 								href="https://github.com/Tobijudah"
 							>
 								<GitHub />
@@ -163,48 +166,27 @@ const Credits: React.FC<PageProps> = ({
 						data-splitting=""
 						className={`${S.quoteTwo} split-text hidden-init`}
 					>
-						Transitions. Motion. Interaction. with GSAP and Locomotive
+						Адрес:
+						<br />
+						<br />
+						#adres#
 					</p>
-					<div className={S.box1}>
-						<p
-							data-splitting=""
-							className={`${S.boxTitle} split-text hidden-init`}
-						>
-							image & video credits
-						</p>
-						<p
-							data-splitting=""
-							className={`${S.textTypeThree} split-text hidden-init`}
-						>
-							<a className={S.bold} href="">
-								Cottonbro
-							</a>{" "}
-							on Pexels
-						</p>
-					</div>
 					<div className={S.box2}>
 						<p
 							data-splitting=""
-							className={`${S.boxTitle} split-text hidden-init`}
-						>
-							fonts
-						</p>
-						<p
-							data-splitting=""
 							className={`${S.textTypeThree} split-text hidden-init`}
 						>
-							New York
-						</p>
-						<p
-							data-splitting=""
-							className={`${S.textTypeThree} split-text hidden-init`}
-						>
-							Neue Haas Grotesk
+							<a href="https://suyxhs-portfolio.vercel.app" className={`${S.textTypeThree} split-text hidden-init`}>👨🏻‍💻 Разработано - «suyxhs»</a>
 						</p>
 					</div>
-					<Link className={`${S.animateOpacity} ${S.button}`} to="/">
-						<Button use="credits" text="back to home" />
+					<div className={`${S.button} hidden-init`}>
+					<Link to="/">
+					<Button
+						text="на главную"
+						use="credits"
+					/>
 					</Link>
+				</div>
 				</div>
 			</section>
 		</>

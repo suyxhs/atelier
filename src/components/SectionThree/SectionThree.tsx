@@ -42,13 +42,12 @@ const SectionThree: React.FC<SectionThreeProps> = ({ scroll }) => {
 		<section data-scroll data-scroll-section data-scroll-id="section-three">
 			<div className={S.section}>
 				<div className={S.textWrapper}>
-					<h2 className={S.title}>Made from the heart, for you</h2>
+					<h2 className={S.title}>Сделано от сердца, для вас</h2>
 					<p className={S.text}>
-						These days, we are all looking for a place where we feel
-						good. Fashion should be an accessory to who you are as
-						well as a reflection of your personality. It is not just
-						what you put on but it is also how you put it on. It’s
-						about the details that make all the difference.
+					В наши дни мы все ищем место, где мы чувствуем себя хорошо. 
+					Мода должна быть аксессуаром для того, кто вы есть, а также 
+					отражением вашей личности. Это не только то, что вы надеваете, 
+					но и то, как вы его надеваете. Речь идет о деталях, которые имеют значение.
 					</p>
 				</div>
 				<div ref={ref} className={S.imageWrapper}>

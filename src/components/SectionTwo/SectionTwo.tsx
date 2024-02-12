@@ -7,22 +7,21 @@ const SectionTwo: React.FC = () => {
 		<section id="section-two" data-scroll-section>
 			<div className={S.section}>
 				<div className={S.textWrapper}>
-					<h2 className={S.title}>The story behind the brand</h2>
+					<h2 className={S.title}>Описание</h2>
 					<p className={S.text}>
-						York & Dante is a fashion brand from France with the
-						vision of making the fashion industry more aware of
-						environmental issues and promoting the use of recycled
-						and eco-friendly materials in the fashion world. The
-						100% organic cotton dresses are delicately printed using
-						a cutting-edge screen printer and special non-toxic inks
-						that will never fade or run even after washing. With a
-						focus on community and great service, we donate 2% of
-						all our profits to help preserve the world we live in.
-						We know you will love your fashion piece ... we
-						certainly do!
+					Ателье - это место, где творятся настоящие шедевры моды.
+					У нас каждая деталь имеет значение, и мы уделяем особое 
+					внимание качеству и совершенству. Наши опытные мастера 
+					с любовью и профессионализмом создадут для вас неповторимые 
+					модели одежды, которые подчеркнут вашу индивидуальность. 
+					Мы умеем слушать и воплощать в жизнь ваши самые смелые идеи. 
+					В нашем ателье вы найдете исключительный сервис, индивидуальный 
+					подход и безупречное качество. Позвольте себе выделиться из толпы
+					 и раскрыть свою уникальность вместе с нашим ателье. Доверьтесь 
+					 нашим нитям и прикоснитесь к истинной элегантности и стилю!
 					</p>
-					<Signature className={S.signature} />
-					<p className={S.person}>Lead designer</p>
+					{/* <Signature className={S.signature} /> */}
+					<p className={S.person}>Главный дизайнер</p>
 				</div>
 				<div className={S.imageWrapper}>
 					<div className={S.imageContainer}>

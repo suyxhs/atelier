@@ -42,13 +42,13 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						className={S.line}
 						windowWidth={windowWidth}
 					/>
-					<p className={S.title}>Chimela</p>
+					<p className={S.title}>Пиджак</p>
 					<p className={S.text}>
-						Each piece of the Chimela has been designed to
-						accentuate the beauty of the female form, from the
-						intricate point d'esprit embroidery. The simplicity and
-						minimal approach is what makes this fashion collection
-						unique.
+					Внимание к деталям - это то, что отличает наш
+					пиджак от массового производства. Мы обращаем 
+					особое внимание на подбор фурнитуры, строчку и 
+					фасон, чтобы создать пиджак, который выгодно 
+					подчеркнет вашу силу и стиль.
 					</p>
 					<img
 						className={S.img}
@@ -62,13 +62,12 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						className={S.line}
 						windowWidth={windowWidth}
 					/>
-					<p className={S.title}>Turbis</p>
+					<p className={S.title}>Шарф</p>
 					<p className={S.text}>
-						Designed by luchesse and crafted using luscious fabrics,
-						this Turbis collection is as opulent as it is versatile.
-						Versatile enough to take on any sexy occasion. Designs
-						of this collection are designed to create style you can
-						call your own.
+					Доверьтесь нашим мастерам и насладитесь уникальным
+					качеством и дизайном, которые мы гарантируем в 
+					каждом изделии. Почувствуйте удовольствие от обладания 
+					ярким и стильным шарфом, который будет радовать вас долгие годы.
 					</p>
 					<img
 						className={S.img}
@@ -82,13 +81,12 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						className={S.line}
 						windowWidth={windowWidth}
 					/>
-					<p className={S.title}>Ardoniss</p>
+					<p className={S.title}>Лонгслив</p>
 					<p className={S.text}>
-						Ardoniss is a fashion collection from luchesse; this
-						piece depicts the creative and innovative quality of
-						modern fashion. Ardoniss collection encompasses the
-						classical styles of tunics, dresses and trousers with 3D
-						appliqués adorning every hem.
+					Доверьтесь нашим опытным мастерам и насладитесь уникальным
+					качеством и стилем, которые мы гарантируем в каждом изделии. 
+					Носите неповторимый лонгслив, который подчеркнет вашу индивидуальность 
+					и станет вашим любимым предметом гардероба.
 					</p>
 					<img
 						className={S.img}
@@ -102,13 +100,12 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						className={S.line}
 						windowWidth={windowWidth}
 					/>
-					<p className={S.title}>Plaid</p>
+					<p className={S.title}>Рубашка</p>
 					<p className={S.text}>
-						Plaid is a clean, modern, and minimalistic suit style
-						fashion collection from Luchesse. The lines have been
-						refined to create a dressy uniform that can translate
-						day to night. The exclusive fabrics we use will fit
-						perfectly into your everyday work wardrobe.
+					Мы предлагаем различные модели и стили теплых рубашек
+					– от классических и строгих до более спортивных и практичных. 
+					У нас вы можете найти рубашки с длинными рукавами, утепленными 
+					воротниками и манжетами, чтобы обеспечить дополнительную защиту от холода и ветра.
 					</p>
 					<img
 						className={S.img}
