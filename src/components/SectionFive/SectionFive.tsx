@@ -51,7 +51,7 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
 					</h2>
 					<img
 						className={S.image}
-						src="https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486753/it/4_xgr6j4.png"
+						src="https://i.ibb.co/vxwp1X5/2.jpg"
 						alt=""
 					/>
 					<h2

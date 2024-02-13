@@ -8,13 +8,13 @@ const Banner = () => {
 				data-splitting=""
 				className={`${S.textOne} split-text hidden-init`}
 			>
-				Ателье Воронеж
+				С иголочки
 			</p>
 			<p
 				data-splitting=""
 				className={`${S.textTwo} split-text hidden-init`}
 			>
-				Ателье Воронеж
+				Ателье - Мастерская
 			</p>
 		</div>
 	);

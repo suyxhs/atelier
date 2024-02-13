@@ -82,7 +82,7 @@ const Preloader: React.FC<PreloaderProps> = ({ windowWidth, setPreloaded }) => {
 							/>
 						</div>
 					</div>
-					<p className={S.and}>&</p>
+					{/* <p className={S.and}>&</p> */}
 					<div className={S.dante}>
 						<div className={S.letter}>
 							<Alphabets

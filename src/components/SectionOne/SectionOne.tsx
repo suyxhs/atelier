@@ -42,7 +42,7 @@ const SectionOne: React.FC<SectionOneProps> = ({
 					data-splitting=""
 					className={`${S.text} split-text hidden-init`}
 				>
-					Ателье Воронеж <sup className={S.sup}>&reg;</sup>
+					Ателье - Мастерская <sup className={S.sup}>&reg;</sup>
 				</h1>
 				<p ref={subTextRef} className={`${S.subText} hidden-init`}>
 					Идеальная форма, созданная руками мастеров!

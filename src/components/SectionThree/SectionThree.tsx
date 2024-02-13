@@ -56,7 +56,7 @@ const SectionThree: React.FC<SectionThreeProps> = ({ scroll }) => {
 							alt=""
 							ref={imageRef}
 							className={S.image}
-							src="https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642270471/it/2_sakgkt.png"
+							src="https://i.ibb.co/wWnD5VC/6.jpg"
 						/>
 					</div>
 					<div ref={SVGRef} className={S.svg}>

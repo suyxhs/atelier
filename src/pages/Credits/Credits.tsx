@@ -77,10 +77,10 @@ const Credits: React.FC<PageProps> = ({
 						data-splitting=""
 						className={`${S.quoteOne} split-text hidden-init`}
 					>
-						Номер телефона для всех вопросов и бронирования 
+						Номер телефона для всех вопросов и бронирования:
 						<br />
 						<br />
-						<a href="tel:79066701204" className={`${S.textTypeOne} split-text hidden-init`}>+79066701204</a>
+						<a href="tel:79529534763" className={`${S.textTypeOne} split-text hidden-init`}>+79529534763</a>
 					</p>
 					<div className={S.credit1}>
 						<p
@@ -169,7 +169,7 @@ const Credits: React.FC<PageProps> = ({
 						Адрес:
 						<br />
 						<br />
-						#adres#
+						Героев Сибиряков 53
 					</p>
 					<div className={S.box2}>
 						<p

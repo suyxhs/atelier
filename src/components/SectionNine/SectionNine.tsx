@@ -26,17 +26,17 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 				<div className={S.right}>
 					<img
 						className={S.image1}
-						src="https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486755/it/8-1_lvr5jx.png"
+						src="https://i.ibb.co/wWnD5VC/6.jpg"
 						alt=""
 					/>
 					<img
 						className={S.image2}
-						src="https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486754/it/8-2_posszt.png"
+						src="https://i.ibb.co/KVYnHTX/10.jpg"
 						alt=""
 					/>
 					<img
 						className={S.image3}
-						src="https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486755/it/8-3_okcfgq.png"
+						src="https://i.ibb.co/XjngHHD/11.jpg"
 						alt=""
 					/>
 					<p
@@ -45,7 +45,7 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						data-scroll-direction="horizontal"
 						data-scroll-speed={textScrollSpeed}
 					>
-						York & Dante
+						С   иголочки
 					</p>
 				</div>
 			</div>
