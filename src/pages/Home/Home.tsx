@@ -93,7 +93,7 @@ const Home: React.FC<PageProps> = ({
 				/>
 				<SectionTwo />
 				<SectionThree scroll={scroll} />
-				{/* <SectionFour /> */}
+				<SectionFour />
 				<SectionFive windowWidth={windowWidth} />
 				<SectionSix />
 				<SectionEight windowWidth={windowWidth} />

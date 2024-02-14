@@ -51,8 +51,8 @@ const SectionFour: React.FC = () => {
 						className={S.corner}
 					/>
 					<h2 ref={ref1} className={S.title}>
-						Closer to <span className={S.green}>nature</span> than
-						you imagine
+						Ателье <span className={S.green}>Мастерская</span> <br />
+						"С иголочки"
 					</h2>
 					<Scribble
 						width="43.68vh"
@@ -63,8 +63,7 @@ const SectionFour: React.FC = () => {
 				</div>
 				<div className={S.right}>
 					<h3 ref={ref2} className={S.header}>
-						Made of Eco-Friendly materials sewn into the hem of
-						every piece
+						Наши качества и преимущества?
 					</h3>
 					<Line
 						height="5.67vh"
@@ -72,15 +71,28 @@ const SectionFour: React.FC = () => {
 						id={"verticalLineRef"}
 					/>
 					<p className={S.text}>
-						Internally, the flannel fabric is created from recycled
-						bottles and organic hemp. Its outer shell is made from
-						regenerated cotton fibers that are softer than cotton
-						and sturdier than canvas. This allows our clothing to
-						avoid the harsh chemicals that would normally be used to
-						whiten. We like to think of it as taking the best of
-						everything nature has to offer, maximizing its positive
-						attributes while minimizing its negative
-						characteristics.
+						1. Индивидуальный пошив и ремонт одежды 
+					</p>
+					<p className={S.text}>
+						2. Пошив одежды с возможностью выбора ткани и фурнитуры 
+					</p>
+					<p className={S.text}>
+						3. Купленная вещь плохо садится по фигуре? Приходите к нам
+					</p>
+					<p className={S.text}>
+						4. Качество работы
+					</p>
+					<p className={S.text}>
+						5. Индивидуальный подход
+					</p>
+					<p className={S.text}>
+						6. Доступные цены
+					</p>
+					<p className={S.text}>
+						7. Выполняем работу в короткие сроки
+					</p>
+					<p className={S.text}>
+						8. Профессиональное оборудование
 					</p>
 				</div>
 			</div>

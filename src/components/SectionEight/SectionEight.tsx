@@ -56,7 +56,7 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						alt="her"
 					/>
 				</div>
-				<div className={S.box}>
+				{/* <div className={S.box}>
 					<LongLine
 						ref={refs[1]}
 						className={S.line}
@@ -74,7 +74,7 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						src="https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486754/it/7-2_tk158a.png"
 						alt="her"
 					/>
-				</div>
+				</div> */}
 				<div className={S.box}>
 					<LongLine
 						ref={refs[2]}

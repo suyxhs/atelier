@@ -7,15 +7,16 @@
 	background-repeat: no-repeat;
 
 	@include media(">mobile") {
-		background-image: url("https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486753/it/1-desktop_orznd3.png");
+		background-image: url("https://i.ibb.co/vJwFVhD/logo4.jpg");
 	}
 	@include media("<=mobile") {
 		padding: 3rem 1.5rem 0;
-		background-image: url("https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637486752/it/1-mobile_lnwgdu.png");
+		background-image: url("https://i.ibb.co/tD9PP44/logo2.jpg");
 	}
 }
 
 .text {
+	color: #fff;
 	font: 600 10.667vh/98.49% "New York Extra Large", serif;
 	letter-spacing: -0.06em;
 
@@ -41,7 +42,7 @@
 }
 
 .subText {
-	color: #414141;
+	color: #fff;
 	font: 600 2.35vh/150% "Neue Haas Grotesk Display Pro", Arial, Helvetica,
 		sans-serif;
 	white-space: pre-wrap;

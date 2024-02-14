@@ -74,7 +74,7 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
 							className={S.line1}
 						/>
 						<p ref={ref} className={S.subText}>
-							Носите с удовольствием
+							Радость
 						</p>
 					</div>
 					<div className={S.subRow}>
