@@ -29,16 +29,16 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
 						src="https://i.ibb.co/wWnD5VC/6.jpg"
 						alt=""
 					/>
-					<img
+					{/* <img
 						className={S.image2}
 						src="https://i.ibb.co/KVYnHTX/10.jpg"
 						alt=""
-					/>
-					<img
+					/> */}
+					{/* <img
 						className={S.image3}
-						src="https://i.ibb.co/XjngHHD/11.jpg"
+						src="https://i.ibb.co/swB1rGV/grafik.jpg"
 						alt=""
-					/>
+					/> */}
 					<p
 						data-scroll
 						className={S.title}

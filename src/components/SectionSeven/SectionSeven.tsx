@@ -65,7 +65,7 @@ const SectionSeven: React.FC<SectionSevenProps> = ({ windowWidth }) => {
 							className={S.img}
 							src={
 								windowWidth > 1024
-									? "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1637522594/it/6_eda4xd.png"
+									? "https://i.ibb.co/swB1rGV/grafik.jpg"
 									: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1639309634/it/6-mobile_rk62d6.png"
 							}
 							alt=""
