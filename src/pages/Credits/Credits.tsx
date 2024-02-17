@@ -11,6 +11,7 @@ import { ReactComponent as GitHub } from "../../svgs/github.svg";
 import { ReactComponent as Behance } from "../../svgs/behance.svg";
 import { ReactComponent as Twitter } from "../../svgs/twitter.svg";
 import { ReactComponent as LinkedIn } from "../../svgs/linkedin.svg";
+import { Helmet } from "react-helmet-async";
 
 const Credits: React.FC<PageProps> = ({
 	appLoaded,
@@ -60,6 +61,14 @@ const Credits: React.FC<PageProps> = ({
 		<>
 			<Nav ref={navRef} onClick={navOnClick} />
 			<section id="credits" className={S.section}>
+			<Helmet>
+          <title>Контакты</title>
+          <meta name="description" content="Обратная связь с нами | Ателье" />
+          <meta
+            name="keywords"
+            content="обратная связь, контакты, заказать ремонт, воронеж, ателье-воронеж"
+          />
+        </Helmet>
 				<Marquee
 					pauseOnHover
 					gradient={false}

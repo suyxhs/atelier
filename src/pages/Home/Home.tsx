@@ -14,6 +14,7 @@ import SectionNine from "../../components/SectionNine/SectionNine";
 import SectionThree from "../../components/SectionThree/SectionThree";
 import SectionSeven from "../../components/SectionSeven/SectionSeven";
 import SectionEight from "../../components/SectionEight/SectionEight";
+import { Helmet } from 'react-helmet-async';
 
 const Home: React.FC<PageProps> = ({
 	appLoaded,
@@ -85,6 +86,13 @@ const Home: React.FC<PageProps> = ({
 		<>
 			<Nav ref={navRef} onClick={navOnClick} />
 			<div id="home" ref={scrollRef} data-scroll-container>
+			<Helmet>
+        <title>Главная страница</title>
+        <meta name="description" content="Главная страница | Ателье" />
+        <meta name="keywords" content="Ателье, мастерская, иголочка, воронеж, ателье-воронеж, ремонт одежды" />
+        {/* Другие мета-теги и свойства страницы */}
+      </Helmet>
+
 				<SectionOne
 					scroll={scroll}
 					appLoaded={appLoaded}
