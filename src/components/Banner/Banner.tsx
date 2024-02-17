@@ -8,7 +8,7 @@ const Banner = () => {
 				data-splitting=""
 				className={`${S.textOne} split-text hidden-init`}
 			>
-				С <span className={S.and}>--</span> иголочки
+				С <span className={S.and}>🪡</span> иголочки
 			</p>
 			<p
 				data-splitting=""
