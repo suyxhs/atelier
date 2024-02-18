@@ -14,102 +14,103 @@ import SectionNine from "../../components/SectionNine/SectionNine";
 import SectionThree from "../../components/SectionThree/SectionThree";
 import SectionSeven from "../../components/SectionSeven/SectionSeven";
 import SectionEight from "../../components/SectionEight/SectionEight";
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 
 const Home: React.FC<PageProps> = ({
-	appLoaded,
-	preloaded,
-	navOnClick,
-	windowWidth,
-	setAppLoaded,
+  appLoaded,
+  preloaded,
+  navOnClick,
+  windowWidth,
+  setAppLoaded,
 }) => {
-	const navRef = useRef(null);
-	const scrollRef = useRef(null);
-	const [scroll, setScroll] = useState<any>();
+  const navRef = useRef(null);
+  const scrollRef = useRef(null);
+  const [scroll, setScroll] = useState<any>();
 
-	const preloadImages = () => {
-		return new Promise((resolve) => {
-			imagesLoaded(
-				document.querySelectorAll("#home img"),
-				{ background: true },
-				resolve
-			);
-		});
-	};
+  const preloadImages = () => {
+    return new Promise((resolve) => {
+      imagesLoaded(
+        document.querySelectorAll("#home img"),
+        { background: true },
+        resolve
+      );
+    });
+  };
 
-	useEffect(() => {
-		if (preloaded && !scroll) {
-			setScroll(
-				new LocomotiveScroll({
-					smooth: true,
-					el: scrollRef.current,
-					direction: "horizontal",
-					gestureDirection: "both",
-					tablet: {
-						smooth: true,
-					},
-					smartphone: {
-						smooth: true,
-					},
-					reloadOnContextChange: true,
-				})
-			);
-		} else if (preloaded && scroll) {
-			Promise.all([preloadImages()]).then(() => {
-				scroll.update();
-			});
-			scroll.stop();
-			scroll.update();
-			const loadedAnimationDelay = windowWidth <= 1024 ? 0.8 : 0.5;
-			setTimeout(
-				() => {
-					scroll.start();
-					!appLoaded &&
-						windowWidth > 1024 &&
-						IntroAnimation(navRef.current);
-					setAppLoaded(true);
-				},
-				!appLoaded ? 0 : loadedAnimationDelay
-			);
-		}
-		return () => scroll && scroll.destroy();
-	}, [scroll, preloaded]);
+  useEffect(() => {
+    if (preloaded && !scroll) {
+      setScroll(
+        new LocomotiveScroll({
+          smooth: true,
+          el: scrollRef.current,
+          direction: "horizontal",
+          gestureDirection: "both",
+          tablet: {
+            smooth: true,
+          },
+          smartphone: {
+            smooth: true,
+          },
+          reloadOnContextChange: true,
+        })
+      );
+    } else if (preloaded && scroll) {
+      Promise.all([preloadImages()]).then(() => {
+        scroll.update();
+      });
+      scroll.stop();
+      scroll.update();
+      const loadedAnimationDelay = windowWidth <= 1024 ? 0.8 : 0.5;
+      setTimeout(
+        () => {
+          scroll.start();
+          !appLoaded && windowWidth > 1024 && IntroAnimation(navRef.current);
+          setAppLoaded(true);
+        },
+        !appLoaded ? 0 : loadedAnimationDelay
+      );
+    }
+    return () => scroll && scroll.destroy();
+  }, [scroll, preloaded]);
 
-	useEffect(() => {
-		!appLoaded &&
-			navRef.current &&
-			windowWidth > 1024 &&
-			gsap.set(navRef.current, { visibility: "hidden" });
-	}, [navRef.current]);
+  useEffect(() => {
+    !appLoaded &&
+      navRef.current &&
+      windowWidth > 1024 &&
+      gsap.set(navRef.current, { visibility: "hidden" });
+  }, [navRef.current]);
 
-	return (
-		<>
-			<Nav ref={navRef} onClick={navOnClick} />
-			<div id="home" ref={scrollRef} data-scroll-container>
-			<Helmet>
-        <title>Главная страница</title>
-        <meta name="description" content="Главная страница | Ателье" />
-        <meta name="keywords" content="Ателье, мастерская, иголочка, воронеж, ателье-воронеж, ремонт одежды" />
-        {/* Другие мета-теги и свойства страницы */}
-      </Helmet>
+  return (
+    <>
+      <Nav ref={navRef} onClick={navOnClick} />
+      <div id="home" ref={scrollRef} data-scroll-container>
+        <Helmet>
+          <title>Главная страница</title>
+          <meta name="description" content="Главная страница | Ателье" />
+          <meta
+            name="keywords"
+            content="Ателье, мастерская, иголочка, воронеж, ателье-воронеж, ремонт одежды"
+          />
+          {/* Другие мета-теги и свойства страницы */}
+        </Helmet>
 
-				<SectionOne
-					scroll={scroll}
-					appLoaded={appLoaded}
-					preloaded={preloaded}
-					windowWidth={windowWidth}
-				/>
-				<SectionTwo />
-				<SectionThree scroll={scroll} />
-				<SectionFour />
-				<SectionFive windowWidth={windowWidth} />
-				<SectionSix />
-				<SectionEight windowWidth={windowWidth} />
-				<SectionSeven windowWidth={windowWidth} />
-				<SectionNine windowWidth={windowWidth} />
-			</div>
-		</>
-	);
+        <SectionOne
+          scroll={scroll}
+          appLoaded={appLoaded}
+          preloaded={preloaded}
+          windowWidth={windowWidth}
+        />
+        <SectionTwo />
+        <SectionThree scroll={scroll} />
+        <SectionFour />
+        <SectionFive windowWidth={windowWidth} />
+        <SectionSix />
+        <SectionEight windowWidth={windowWidth} />
+        <SectionSeven windowWidth={windowWidth} />
+        <SectionNine windowWidth={windowWidth} />
+      </div>
+    </>
+  );
 };
 
 export default Home;
