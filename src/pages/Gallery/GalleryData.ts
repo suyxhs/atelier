@@ -41,35 +41,35 @@ export const GalleryData = [
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_1/1.png",
+		link: "https://i.ibb.co/Gc7K5dD/14.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/1.png",
+		link: "https://i.ibb.co/0KB80Fj/15.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/2.png",
+		link: "https://i.ibb.co/5vGdQB7/16.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/3.png",
+		link: "https://i.ibb.co/1nNw9Y8/17.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/4.png",
+		link: "https://i.ibb.co/XLdfpBq/18.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/5.png",
+		link: "https://i.ibb.co/gyMbbR0/19.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/6.png",
+		link: "https://i.ibb.co/N6LJybx/20.jpg",
 	},
 	{
 		name: "",
-		link: "https://res.cloudinary.com/tobijudah/image/upload/q_auto,f_auto/v1642240246/it/gallery_column_2/7.png",
+		link: "https://i.ibb.co/DkfpV8Z/21.jpg",
 	},
 	{
 		name: "",
